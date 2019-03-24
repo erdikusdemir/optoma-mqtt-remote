@@ -3,11 +3,15 @@
 This code is compiled from mqtt [pubsub](https://github.com/knolleary/pubsubclient) and [esp8266 ir remote](https://github.com/markszabo/IRremoteESP8266) library.  
 
 Code is written for optoma hd39 darbee projector for basic functions.  
+Connect your IRled to pin D2(GPIO04) for Wemos D1 pro 
 
-recorded ir codes are as follows;  
+recorded ir codes are for remote controller below as follows;  
+![remote](https://github.com/erdikusdemir/optomamqttremote/blob/master/remote.jpg)
+
 protocol: NEC  
 bits: 32  
 
+```
 0x4cb340bf power on  
 0x4cb3748b power off  
 0x4CB36C93 user 1  
@@ -34,6 +38,7 @@ bits: 32
 0x4CB37887 vga 2  
 0x4CB338C7 Video  
 0x4CB3E817 YPbPr  
+```
 
 default mqtt receive topic is "projector/in"  
 5 mqtt message is arranged  
