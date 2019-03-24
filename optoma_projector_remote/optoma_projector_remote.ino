@@ -10,22 +10,7 @@ hdmi1             3
 hdmi2             4
 */
 
-/*
- * codes for hd39 projector
-  irsend.sendNEC(0x4cb3708f); //menu tusu
-  irsend.sendNEC(0x4cb3748b); //power off
-  irsend.sendNEC(0x4cb340bf); //power on
-  irsend.sendNEC(0x4cb322dd); //brightness
-  irsend.sendNEC(0x4cb36897); //hdmi 1
-  irsend.sendNEC(0x4cb30cf3); //hdmi 2
-  irsend.sendNEC(0x4cb308f7); //sol
-  irsend.sendNEC(0x4cb348b7); //sag
-  irsend.sendNEC(0x4cb3f00f); //ok
-*/
-
 #include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
-#include <WiFiUdp.h>
 #include <PubSubClient.h>
 #ifndef UNIT_TEST
 #include <Arduino.h>
