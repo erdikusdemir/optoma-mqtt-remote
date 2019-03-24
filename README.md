@@ -1,4 +1,4 @@
-# optomamqttremote
+# Optoma HD39 darbee mqtt based remote controller
 
 This code is compiled from mqtt [pubsub](https://github.com/knolleary/pubsubclient) and [esp8266 ir remote](https://github.com/markszabo/IRremoteESP8266) library.  
 
