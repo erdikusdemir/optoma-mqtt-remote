@@ -7,6 +7,8 @@ Connect your IRled to pin D2(GPIO04) for Wemos D1 pro
 
 recorded ir codes are for remote controller below as follows;  
 ![remote](https://github.com/erdikusdemir/optomamqttremote/blob/master/remote.jpg)
+<img src="https://github.com/erdikusdemir/optomamqttremote/blob/master/remote.jpg" width="400">
+
 
 protocol: NEC  
 bits: 32  
