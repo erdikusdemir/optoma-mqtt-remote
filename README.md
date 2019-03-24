@@ -3,7 +3,8 @@
 This code is compiled from mqtt [pubsub](https://github.com/knolleary/pubsubclient) and [esp8266 ir remote](https://github.com/markszabo/IRremoteESP8266) library.  
 
 Code is written for optoma hd39 darbee projector for basic functions.  
-Connect your IRled to pin D2(GPIO04) for Wemos D1 pro 
+Connect your IRled to pin D2(GPIO04) and gnd (short leg of LED) for Wemos D1 pro.
+Put your SSID, password and MQTT server information and upload it.
 
 recorded ir codes are for remote controller below as follows;  
 <img src="https://github.com/erdikusdemir/optomamqttremote/blob/master/remote.jpg" width="400">
