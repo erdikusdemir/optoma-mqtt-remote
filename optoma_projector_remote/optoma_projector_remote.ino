@@ -23,6 +23,7 @@ hdmi2             4
 const char* ssid = "ssid";
 const char* password = "pass for ssid";
 const char* mqtt_server = "ip for mqtt server";
+const char* mqtt_clientid = "projectorremote";
 const char* mqtt_username = "user name for mqtt server";
 const char* mqtt_password = "pass for mqtt server";
 const char* outTopic = "projector/out";
@@ -100,7 +101,7 @@ void reconnect() {
 while (!client.connected()) {
 Serial.print("Attempting MQTT connection...");
 // Attempt to connect
-if (client.connect("deneme", mqtt_username, mqtt_password)) {
+if (client.connect(mqtt_clientid, mqtt_username, mqtt_password)) {
 Serial.println("connected");
 // Once connected, publish an announcement...
 client.publish(outTopic, "hello world");
