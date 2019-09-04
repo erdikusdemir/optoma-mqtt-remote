@@ -1,14 +1,15 @@
 # Optoma HD39 darbee mqtt based remote controller
 
-This code is compiled from mqtt [pubsub](https://github.com/knolleary/pubsubclient) and [esp8266 ir remote](https://github.com/markszabo/IRremoteESP8266) library.  
+The code is written by using mqtt [pubsub](https://github.com/knolleary/pubsubclient) and [esp8266 ir remote](https://github.com/markszabo/IRremoteESP8266) libraries.  
 
-Code is written for optoma hd39 darbee projector for emulating basic functions.  
-Connect your IRled to pin D2(GPIO04) and gnd (short leg of LED) for Wemos D1 pro.
+The code emulates key strokes of remote controller (optoma hd39 darbee projector).  
+Connect your IRled to pin D2(GPIO04) and gnd (short leg of LED) to Wemos D1 pro.
 Put your SSID, password and MQTT server information and upload it.
 
-recorded ir codes are for remote controller below as follows;  
+Image of the remote controller: 
 <img src="https://github.com/erdikusdemir/optomamqttremote/blob/master/remote.jpg" width="400">
 
+Recorded ir codes for remote controller: 
 
 protocol: NEC  
 bits: 32  
